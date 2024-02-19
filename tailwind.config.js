@@ -1,0 +1,72 @@
+module.exports = {
+  mode: "jit",
+  content: [
+    "./src/**/**/*.{js,ts,jsx,tsx,html,mdx}",
+    "./src/**/*.{js,ts,jsx,tsx,html,mdx}",
+  ],
+  darkMode: "class",
+  theme: {
+    screens: { md: { max: "1050px" }, sm: { max: "550px" } },
+    extend: {
+      colors: {
+        white: {
+          A700_7f: "#ffffff7f",
+          A700_4c: "#ffffff4c",
+          A700_66: "#ffffff66",
+          A700_00: "#ffffff00",
+          A700: "#ffffff",
+        },
+        indigo: {
+          500: "#464ec7",
+          A200: "#4274fa",
+          "500_26": "#464ec726",
+          A200_19: "#4274fa19",
+        },
+        black: {
+          900: "#000000",
+          "900_3f": "#0000003f",
+          "900_26": "#00000026",
+          "900_33": "#00000033",
+        },
+        gray: {
+          50: "#fafafa",
+          100: "#f2f2f2",
+          400: "#b1b1b1",
+          900: "#131212",
+          "900_19": "#12121219",
+          "100_19": "#f2f2f219",
+          "900_0c": "#1918190c",
+          "900_4c": "#1918194c",
+          "900_02": "#191819",
+          "100_3f": "#f2f2f23f",
+          "900_26": "#12121226",
+          "900_bf": "#121212bf",
+          "100_7f": "#f2f2f27f",
+          "900_01": "#121212",
+          "900_4c_01": "#1212124c",
+          "900_3f": "#1212123f",
+          "100_bf": "#f2f2f2bf",
+          "400_01": "#bcbcbc",
+          "900_7f": "#1212127f",
+        },
+        blue_gray: { 400: "#6f8fac", 900: "#0f1640" },
+      },
+      backgroundImage: {
+        gradient: "linear-gradient(224deg ,#ffffff,#bcbcbc)",
+        gradient1: "linear-gradient(268deg ,#ffffff,#ffffff00)",
+        gradient2: "linear-gradient(308deg ,#f2f2f2,#ffffff00)",
+      },
+      boxShadow: {
+        bs: "0px 4px  4px 0px #0000003f",
+        bs1: "0px 10px  50px 10px #464ec726",
+      },
+      fontFamily: {
+        switzer: "Switzer",
+        ivyprestodisplay: "IvyPresto Display",
+        spacegrotesk: "Space Grotesk",
+        abel: "Abel",
+      },
+    },
+  },
+  plugins: [require("@tailwindcss/forms")],
+};

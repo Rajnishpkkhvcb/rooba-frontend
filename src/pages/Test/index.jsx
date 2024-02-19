@@ -871,22 +871,6 @@ const TestPage = () => {
                     <Line className="bg-gray-900_3f h-px w-full" />
                   </div>
                 </div>
-                <div className="absolute bottom-[21%] flex h-[35px] justify-end left-[0] w-[18%]">
-                  <div className="flex flex-row gap-[18px] h-full items-start justify-center mb-2 mt-auto mx-auto w-[69%]">
-                    <Text
-                      className="text-black-900 text-sm tracking-[-0.42px]"
-                      size="txtSwitzerMedium14Black900"
-                    >
-                      Start Now
-                    </Text>
-                    <Img
-                      className="h-px mt-[3px]"
-                      src="images/img_arrow17.svg"
-                      alt="arrowSeventeen"
-                    />
-                  </div>
-                  <div className="absolute border border-black-900 border-solid h-[35px] inset-[0] justify-center m-auto w-full"></div>
-                </div>
                 <div className="absolute bottom-[0] flex flex-row items-end justify-between left-[0] w-[39%]">
                   <Text
                     className="mt-3 text-gray-900_7f text-xl"
